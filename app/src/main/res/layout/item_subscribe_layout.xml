@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="3dp"
+    android:paddingBottom="3dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:maxLength="6"
+        android:minHeight="32dp"
+        android:minWidth="66dp"
+        android:padding="3dp"
+        android:layout_margin="5dip"
+        android:background="@drawable/subscribe_normal_bg"
+        android:gravity="center"
+        android:text="新闻订阅12"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/scribe_delete"
+        android:gravity="center"
+        android:text="×"
+        android:textColor="@color/colorAccent"
+        android:visibility="gone" />
+</FrameLayout>
